@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Epilogue-Medium.ttf" />
+	  <None Remove="Resources\Fonts\fontello.ttf" />
+	  <None Remove="Resources\Images\bunny2.jpeg" />
+	  <None Remove="Resources\Images\bunny3.jpeg" />
+	  <None Remove="Resources\Images\bunny4.jpeg" />
+	  <None Remove="Resources\Images\bunny5.jpeg" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
