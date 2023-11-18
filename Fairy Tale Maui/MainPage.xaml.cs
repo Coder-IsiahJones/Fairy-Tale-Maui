@@ -118,6 +118,11 @@ namespace Fairy_Tale_Maui
                     var searchIcon = handler.PlatformView.FindViewById<Android.Widget.ImageView>(searchIconId);                    
                     searchIcon.SetColorFilter(Android.Graphics.Color.Rgb(172, 157, 185), Android.Graphics.PorterDuff.Mode.SrcIn);                                           
                 }
+
+                Android.Widget.LinearLayout linearLayout =  handler.PlatformView.GetChildAt(0) as Android.Widget.LinearLayout;  
+                linearLayout = linearLayout.GetChildAt(2) as Android.Widget.LinearLayout;  
+                linearLayout = linearLayout.GetChildAt(1) as Android.Widget.LinearLayout;  
+                linearLayout.Background = null;  
 #endif
             });
         }
